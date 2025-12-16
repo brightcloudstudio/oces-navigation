@@ -13,7 +13,10 @@ $(document).ready(function(){
         var target_page = $('option:selected', this).attr('data-target-page');
         var target_anchor = $('option:selected', this).attr('data-target-anchor');
         
+        //Removing slash version that was causing crashes
+        //var buffer = '/';
         var buffer = '/';
+        
         
         if(target_page !== '')
             buffer += target_page;
