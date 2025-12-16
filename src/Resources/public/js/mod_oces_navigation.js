@@ -15,7 +15,7 @@ $(document).ready(function(){
         
         //Removing slash version that was causing crashes
         //var buffer = '/';
-        var buffer = '/';
+        var buffer = '';
         
         
         if(target_page !== '')
