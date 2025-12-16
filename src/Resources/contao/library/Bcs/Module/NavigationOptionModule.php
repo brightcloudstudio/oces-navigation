@@ -68,6 +68,8 @@ class NavigationOptionModule extends \Contao\Module
      */
     protected function compile()
     {
+
+        
         // Add our custom js file
         $GLOBALS['TL_BODY'][] = '<script src="/bundles/bcsocesnavigation/js/mod_oces_navigation.js"></script>';
         //$GLOBALS['TL_BODY'][] = '<script src="system/modules/oces_navigation/assets/js/mod_oces_navigation.js"></script>';
