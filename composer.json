@@ -1,5 +1,5 @@
 {
-    "name":"bright-cloud-studio/oces-navigation",
+    "name":"brightcloudstudio/oces-navigation",
     "description":"Customized Navigation module for OCES",
     "keywords": ["oces", "navigation", "bright", "cloud", "studio"],
     "type": "contao-bundle",
@@ -14,8 +14,8 @@
         }
     ],
     "support":{
-        "issues": "https://github.com/bright-cloud-studio/oces-navigation/issues",
-        "source": "https://github.com/bright-cloud-studio/oces-navigation"
+        "issues": "https://github.com/brightcloudstudio/oces-navigation/issues",
+        "source": "https://github.com/brightcloudstudio/oces-navigation"
     },
     "require":{
         "php": "^7.3 || ^8.0",
